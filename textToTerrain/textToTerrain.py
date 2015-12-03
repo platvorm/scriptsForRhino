@@ -17,7 +17,7 @@ for id in textObjects:
 
     x = rs.TextObjectPoint(id)[0]
     y = rs.TextObjectPoint(id)[1]
-    z = float(rs.TextObjectText(id))
+    z = float(rs.TextObjectText(id)) * 1
 
     point = (x, y, z)
     print point
